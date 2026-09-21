@@ -36,5 +36,19 @@ body {
         900px 500px at 5% 110%,
         rgba(34, 211, 238, 0.18),
         transparent 55%
-    )
+    );
+}
+
+.floating-shape {
+    position: absolute;
+    border: 1px solid rgba(255, 255,255, 0.1);
+    background-color: rgba(255, 255, 255, 0.05);
+    animation: flutuar 8s ease-in-out infinite alternate;
+}
+
+.shape-left {
+    top: -18;
+    left: 12%;
+    width: 360px;
+    height: 520px;
 }
