@@ -51,4 +51,19 @@ body {
     left: 12%;
     width: 360px;
     height: 520px;
+    border-radius: 40%;
+    transform: rotate(16deg);
+    box-shadow: 0 40px 120px rgba(34, 211, 238, 0.18);
+}
+
+.shape-right {
+    right: -8%;
+    bottom: -24%;
+    width: 320px;
+    height: 460px;
+    border-radius: 44px;
+    transform: rotate(-12deg);
+    background-color: rgba(56, 189, 248, 0.06);
+    box-shadow: 0 40px 120px rgba(56, 189, 248, 0.22);
+    
 }
