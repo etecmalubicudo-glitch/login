@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 html {
@@ -10,4 +10,31 @@ body {
     background-color: #070b16;
     color: #f5f7ff;
     font-family: "Inter", sans-serif                ;
+}
+
+.login-page {
+    position: relative;
+    display:grid;
+    min-height: 100vh;
+    place-items: center;
+    overflow: hidden;
+    padding: 48px 24px;
+    background-color: #070b16;
+}
+
+.login-glow {
+    position: absolute;
+    inset: 0;
+
+    background:
+    radial-gradient(
+        1200px 600px at 75% -10,
+        rgba(56, 189, 248, 0.28),
+        transparent 60%
+    ),
+    radial-gradient(
+        900px 500px at 5% 110%,
+        rgba(34, 211, 238, 0.18),
+        transparent 55%
+    )
 }
