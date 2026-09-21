@@ -65,5 +65,19 @@ body {
     transform: rotate(-12deg);
     background-color: rgba(56, 189, 248, 0.06);
     box-shadow: 0 40px 120px rgba(56, 189, 248, 0.22);
-    
+    animation-duration: 10s;
 }
+.login-container {
+    position:relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 440px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.l
