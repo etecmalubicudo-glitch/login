@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+html {
+ min-width: 100%;
+}
+body {
+    min-height: 100vh;
+    margin: 0%;
+    background-color: #070b16;
+    color: #f5f7ff;
+    font-family: "Inter", sans-serif                ;
+}
